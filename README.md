@@ -17,3 +17,9 @@ Default Admin Credentials (/admin):
 Username: admin
 
 Password: djangoquiz
+
+#TODO
+
+- Django production settings: https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
+
+- Make Django secret key an env var and/or generated upon docker run
