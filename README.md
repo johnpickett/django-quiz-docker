@@ -3,6 +3,7 @@ NOTE: This is not production grade.
 Quick Docker implementation of Tom Walker's django_quiz project (with a few outstanding PRs): https://github.com/tomwalker/django_quiz
 
 Source: https://github.com/johnpickett/django-quiz-docker
+Image: https://hub.docker.com/r/johnpickett/django-quiz/
 
 To run, try:
 
