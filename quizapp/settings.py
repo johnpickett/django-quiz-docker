@@ -25,7 +25,7 @@ SECRET_KEY = 'vg6_u^38@s*613dmm4w!$_k4a(j*o!^cs3bwogoe5srh&v__m0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,10 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'quiz',
+    'multichoice',
+    'essay',
+    'true_false',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -99,4 +103,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
+STATIC_ROOT = "/usr/src/app/static/"
 STATIC_URL = '/static/'
